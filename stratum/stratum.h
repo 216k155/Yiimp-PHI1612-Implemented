@@ -140,6 +140,7 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/hmq17.h"
 #include "algos/nist5.h"
 #include "algos/fresh.h"
+#include "algos/hsr14.h"
 #include "algos/quark.h"
 #include "algos/neoscrypt.h"
 #include "algos/lyra2re.h"
@@ -157,7 +158,6 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/skunk.h"
 #include "algos/timetravel.h"
 #include "algos/bitcore.h"
-#include "algos/phi1612.h"
 
 #include "algos/bastion.h"
 #include "algos/bmw.h"
@@ -173,6 +173,7 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/hive.h"
 #include "algos/sib.h"
 #include "algos/m7m.h"
+#include "algos/phi.h"
 #include "algos/tribus.h"
 #include "algos/veltor.h"
 #include "algos/velvet.h"

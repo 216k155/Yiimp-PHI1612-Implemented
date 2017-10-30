@@ -19,6 +19,7 @@ function yaamp_get_algos()
 		'hmq1725',
 		'keccak',
 		'jha',
+		'hsr',
 		'lbry',
 		'luffa',
 		'lyra2',
@@ -41,6 +42,7 @@ function yaamp_get_algos()
 		'dmd-gr',
 		'myr-gr',
 		'm7m',
+		'phi',
 		'sib',
 		'skein',
 		'skein2',
@@ -53,7 +55,6 @@ function yaamp_get_algos()
 		'yescrypt',
 		'whirlpool',
 		'zr5',
-                'phi1612',
 	);
 }
 
@@ -139,6 +140,7 @@ function getAlgoColors($algo)
 		'dmd-gr'	=> '#a0c0f0',
 		'myr-gr'	=> '#a0c0f0',
 		'hmq1725'	=> '#ffa0a0',
+		'hsr'		=> '#aa70ff',
 		'keccak'	=> '#c0f0c0',
 		'lbry'		=> '#b0d0e0',
 		'luffa'		=> '#a0c0c0',
@@ -150,6 +152,7 @@ function getAlgoColors($algo)
 		'lyra2'		=> '#80a0f0',
 		'lyra2v2'	=> '#80c0f0',
 		'lyra2z'	=> '#80b0f0',
+		'phi'		=> '#a0a0e0',
 		'sib'		=> '#a0a0c0',
 		'skein'		=> '#80a0a0',
 		'skein2'	=> '#c8a060',
@@ -162,7 +165,6 @@ function getAlgoColors($algo)
 		'whirlpool'	=> '#d0e0e0',
 		'yescrypt'	=> '#e0d0e0',
 		'zr5'		=> '#d0b0d0',
-                'phi1612'	=> '#ffc600',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
 		'PoS'		=> '#ffffff'  // Stake
@@ -226,9 +228,10 @@ function getAlgoPort($algo)
 		'velvet'	=> 6133,
 		'yescrypt'	=> 6233,
 		'bastion'	=> 6433,
+		'hsr'		=> 7433,
+		'phi'		=> 8333,
 		'skunk'		=> 8433,
 		'tribus'	=> 8533,
-                'phi1612'	=> 6667,
 	);
 
 	global $configCustomPorts;
